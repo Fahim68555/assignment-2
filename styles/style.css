@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+.quicksand-main-font{
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  /* share style */
+  .display-flex{
+    display: flex;}
+
+    .Orange-color{
+color: rgba(254, 163, 1, 1);
+    }
+.Sky-Blue{
+  color: rgba(1, 172, 253, 1);
+}
+
+  /* navbar Section style */
+  .navbar{
+    justify-content: space-between;
+    width: 1160px;
+    margin:20px auto;
+  }
+  .navbar-heading{
+font-size: 2rem;
+font-weight:bold;
+margin-top: 17px;
+margin-left: 11px;
+  }
+  .navebar-manu{
+    margin-top: 16px;
+  }
+  .nav-item{
+    list-style: none;
+    margin-right: 32px;
+    font-size: 1.25rem;
+    font-weight: bold;
+    
+
+  }
+  .nav-link{
+text-decoration: none;
+
+  }
+  .navbar-btn{
+    background-color: rgba(254, 163, 1, 1);
+    border: none;
+    border-radius: 12px;
+    width:190px;
+    height:50px;
+    color:rgba(255, 255, 255, 1);
+    font-size:20px;
+    font-weight:500;
+    margin-top: -10px;
+  }
+  
