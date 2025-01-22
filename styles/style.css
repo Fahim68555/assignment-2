@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 .quicksand-main-font{
     font-family: "Quicksand", serif;
     font-optical-sizing: auto;
@@ -20,7 +19,17 @@ color: rgba(254, 163, 1, 1);
 .Sky-Blue{
   color: rgba(1, 172, 253, 1);
 }
-
+.share-btn{
+  background-color: #111111;
+  color: #FFFFFF;
+  font-size: 1.25rem;
+  font-weight:bold;
+  border: none;
+  border-radius:12px;
+  width: 197px;
+  height: 50px;
+  margin-top: 24px;
+}
   /* navbar Section style */
   .navbar{
     justify-content: space-between;
@@ -33,7 +42,7 @@ font-weight:bold;
 margin-top: 17px;
 margin-left: 11px;
   }
-  .navebar-manu{
+  .navbar-manu{
     margin-top: 16px;
   }
   .nav-item{
@@ -41,12 +50,14 @@ margin-left: 11px;
     margin-right: 32px;
     font-size: 1.25rem;
     font-weight: bold;
-    
-
-  }
+     }
+ 
   .nav-link{
 text-decoration: none;
 
+  }
+  .gaibul-haowa{
+    display: none;
   }
   .navbar-btn{
     background-color: rgba(254, 163, 1, 1);
@@ -59,4 +70,192 @@ text-decoration: none;
     font-weight:500;
     margin-top: -10px;
   }
+  /* hero section style */
+  .heroborder{
+    display: none;
+  }
+  .hero-section{
+    display:flex;
+    justify-content: space-between;
+    width: 1159px;
+    margin: 0 auto;
+    }
+  .hero{
+    width:100%;
+    margin: 0 auto;
+   }
+  .hero-img{
+    width: 100%;
+  }
+  .hero-title{
+    font-size: 56px;
+    font-weight: bold;
+    margin-top: 122px;
+  }
+  .hero-paragraph{
+    width: 100%;
+    font-size: 1.25rem;
+    color: rgba(17, 17, 17, 1);
+    margin-top: 24px;
+  }
+  /* secund heading section */
+  .secund-heading{
+    text-align: center;
+    font-size:2.875rem;
+    font-weight:bold;
+    margin-top: 60px;
+   }
+ .background-img{
+  background-image: url(../assets/bg.png);
+  background-repeat: no-repeat;
+  background-size: 100%;}
+
+/* Standard Curriculum section style */
+
+ .Standard-Curriculum{
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  width: 100%;
+  margin-bottom: 80px;
+ 
+ }
+ .Curriculum-div{
+  width: 368px;
+  height: 447px;
+  border-radius: 19px;
+  margin-left: 28px;
+  box-shadow: rgba(0, 0, 0, 0.05);
+  background-image: linear-gradient(rgba(222, 245, 255, 1) , rgba(255, 255, 255, 1));
+  stroke: rgba(222, 245, 255, 1);
+  border: 1px solid rgba(222, 245, 255, 1);
+  margin-bottom: 16px;
+
+ 
+ }
+ #linear-gradient-1{
+ background-image: linear-gradient(rgba(255, 244, 220, 1),rgba(255, 255, 255, 1));
+ border:1px solid rgba(255, 244, 220, 1) ;
+}
+#linear-gradient-2{
+  background-image:linear-gradient(rgba(238, 225, 255, 1),rgba(255, 255, 255, 1));
+  border: 1px solid rgba(238, 225, 255, 1);
+}
+.center{
+ text-align: center;
+}
+.curriculum-img{
+  width: 136px;
+  height: 136px;
+  margin-top: 53px;
+}
+.curriculum-heading{
+  font-size:1.5rem;
+  font-weight:bold;
+  margin-top: 32px;
+}
+.curriculum-pra{
+  font-size:1rem;
+  font-weight:500;
+  margin-top:33px;
+  margin:33px 40px 0px 40px;
+}
+.read-more{
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 38px;
+  color: rgba(100, 200, 255, 1);
+}
+
+ .container, .inner{
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+
+ }
+ .container{
+  background-color: #FFFFFF;
+
+ }
+ .inner{
+  background-color: orange;
+ }
+ .next-png{
+  width:20px;
+  height: 20px;
+  color:#FFFFFF;
+ }
+ /* main mid section style */
+ .main-heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 2.8rem;
+  font-weight: bold;
+ }
+ /* footer section style */
+ .footer{
+  background-color: rgba(1, 172, 253, 1);
+  width: 1449px;
+  height: 519px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+ }
+ .footer-bag-png{
+  display: flex;
+  width: 82px;
+  height: 81px;
+  color: rgba(255, 255, 255, 1);
+ }
+  /* media screen for mine device as like mobile */
+  @media screen and (max-width:576px){
+  .navbar-manu, .navbar-heading
+  {display: none;}
+
+   .gaibul-haowa{
+    display: unset;
+    width: 30px;
+    margin-right: 16px;
+  }
+    
+   .navbar{
+    width:100%;
+    margin:20px auto;
+    margin: 20px 16px;
+    border: 1px solid rgba(254, 163, 1, 1);
+    display: block;
+  }
+   
+   .school-bag-logo{
+    padding: 20px 0;
+   }
+   .navbar-2{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+   }
+   .hero-section{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    flex-direction: column-reverse;
+    margin: 0 16px;
+   }
+   /* Standard Curriculum section  */
+   .Standard-Curriculum{
+display: grid;
+margin-bottom: 12px;
+   }
+   
+  }
+    
+
+   
+    
   
